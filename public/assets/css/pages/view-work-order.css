@@ -1,0 +1,378 @@
+body{
+    width:1366px;
+    margin: auto;
+    font-family:Arial, sans-serif; 
+    direction: rtl;
+}
+textarea {
+resize: none;
+border-right: #646464 ;
+border-top: #646464;
+border-left: #646464;
+border-bottom: #646464;
+background: #e5e5d8;
+width: 100%;
+}
+.issuing-office{
+    text-align: center !important;
+    font-size: 20px;
+    height: 121px;
+}
+table, th, td {
+text-decoration-style: solid;
+}
+.main{
+    padding: 20px 20px 0px 20px;
+    color:  black;
+}
+.logoarea{
+    height: 45px;
+    width: 23% ;
+    border:  black 0.5px solid;
+    float: left;
+    font-size:35px;
+    text-align:center;
+}
+
+.logo-form img {
+    width: 180px;
+    margin-top: 9px;
+    float: left;
+    padding-left: 30px;
+  
+}
+
+.serial{
+    border: black solid 2px;
+    text-align: center;
+    width:30%;
+    font-weight: normal;
+    color: red;
+    font-size: 25px !important;
+}
+
+
+
+.Table-35{
+    width:35%;
+    float: right;  
+    border-collapse: collapse;
+    border:  black 1px solid;
+}
+.Table-30{
+    width:30%;
+    float: right;  
+    border-collapse: collapse;
+    border:  black 1px solid;
+}
+
+.Table-30 td, .Table-35 td{
+    padding: 10px 6px;
+    font-family:Arial, sans-serif;
+    font-size:14px; 
+}
+
+
+.Table-half{
+    width:50%;
+    float: right;  
+    border-collapse: collapse;
+    border:  black 1px solid;
+}
+
+
+.Table-half td{
+    padding:5px 5px;
+    font-family:Arial, sans-serif;
+    font-size:14px; 
+}
+
+.t0{
+    width: 100%;
+}
+.t0 td{
+    padding: 25px 0;
+}
+
+.T1{
+    width:100%;
+    color:  black;
+    float: left;
+    border-collapse: collapse;
+    border: black 3px solid;
+   
+}
+
+
+.t1 td{
+    /* padding: 6px; */
+    font-family:Arial, sans-serif;
+    /* font-size:14px;  */
+}
+
+.T2,.T3,.T4{
+    width:100%;
+}
+.T1,.T2,.T3,.T4{  
+    float: right;
+    /* margin-bottom: 15px;  
+    height: 45px; */
+    
+}
+.T2,.T3,.T4,.T5,.T6,.T7,.T8{
+    border:  black solid 1px;
+    color:  black;
+}
+
+
+.Table-75{
+    width:75%;
+    float: left;  
+    border-collapse: collapse;
+    border:  black 1px solid;
+}
+
+.Table-25{
+    width:25%;
+    float: left;  
+    border-collapse: collapse;
+    border:  black 1px solid;
+}
+
+.Table-64{
+    width:64%;
+    float: left;  
+    border-collapse: collapse;
+    border:  black 1px solid;
+}
+.Table-36{
+    width:36%;
+    float: left;  
+    border-collapse: collapse;
+    border:  black 1px solid;
+}
+
+.Table-80 td,.Table-20 td,.Table-64 td,.Table-36 td{
+    padding:5px 5px;
+    font-family:Arial, sans-serif;
+    font-size:14px; 
+}
+
+.T5{
+    width:60%;
+    float: left;  
+    border-collapse: collapse;
+}
+.T5 td{
+    overflow:hidden;
+    word-break:normal;    
+    height: 40px;
+    text-align: center;         
+}
+
+.t2 td,.t3 td,.t4 td,.t5 td,.t6 td,.t7 td,.t8 td{
+    padding:5px 5px;
+    font-family:Arial, sans-serif;
+    font-size:14px; 
+       
+}
+
+
+.ttd5x{
+    border-bottom:  black 2px solid;
+}
+.ttd5a{
+border-right:  black 1px solid;
+border-bottom:  black 1px solid;
+}
+.border-right{
+    border-right:  black 1px solid; 
+}
+.border-top{
+    border-top:  black 1px solid; 
+}
+
+.border-bottom{
+    border-bottom:  black 1px solid; 
+}
+
+.T6{    
+    border-bottom: none;      
+}
+.T7{    
+    border-top: none;  
+}
+.T6,.T7{
+    border-collapse: collapse;
+}
+.T6,.T7,.T8{
+    width:520px;
+    float: right;     
+}
+.T7,.T8{
+    margin-bottom: 15px;    
+}
+.t8 td{
+    height: 35px;
+}
+.to,.input1,.input2{
+    background: #e5e5d8;
+    border: none;
+    border-color: transparent;
+    width: 100%;      
+}
+.ToA{
+    width: 10%;
+    background: #e5e5d8;
+    border: none;
+    border-color: transparent;
+}
+
+.to{
+     height: 20px;
+} 
+.input1{  
+    height: 20px;
+    font-size: 20px;    
+}
+.input2{
+    height: 50px;
+}   
+.texttable{
+  background: #e5e5d8;
+  border: none;
+  border-color: transparent;
+  width: 100%;
+  height: 30px;
+}
+.text-center{
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
+.md-font{
+    font-size: 16px;
+}
+
+.w-100{
+    width: 100%;
+}
+.w-64{
+    width: 64%;
+}
+.w-36{
+    width: 36%;
+}
+
+.folat-left{
+    float: left; 
+}
+.folat-right{
+    float: right; 
+}
+.py-3{
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+
+.pt-10{
+    padding-top: 10px;
+}
+.my-10{
+    margin: 10px 0;
+}
+
+.p-50{
+    padding: 50px 0 !important;
+}
+
+.prFont-20{
+    font-size: 20px;
+}
+
+.ml-100{
+    margin-left: 100px;
+}
+.fw-900{
+    font-weight: 900;
+}
+
+.fw-700{
+    font-weight: 700;
+}
+
+.xHeight{
+    height: 47px;
+}
+.xHeight-62{
+    height: 62px;
+}
+
+.float-right{
+    float: right !important;
+}
+
+.pt-50{
+    padding-top: 50px;
+}
+
+.pr-100{
+    padding-right: 20px;
+}
+
+.pb-20{
+    padding-bottom: 20px;
+}
+
+.pt-16{
+    padding-top: 16px;
+}
+
+.font-Times{    
+  font-family: "Times New Roman", Times, serif !important;
+  font-size:11px !important; 
+}
+.font-Arial{    
+  font-family:Arial, sans-serif !important;
+  font-size:9px  !important; 
+}
+
+
+@page {
+    size: A4;
+    margin: 0;
+}
+@media print {
+    @page {size: landscape}
+    /* html, body {
+        width: 210mm;
+        height: 297mm;        
+    } */
+    .main {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+    /* .xHeight{
+        height: 47px;
+    } */
+    .prFont-14{
+        font-size: 14px;
+    }
+    .prFont-20{
+        font-size: 20px;
+    }
+    .Table-80 td,.Table-20 td,.Table-64 td,.Table-36 td{        
+        font-size:14px; 
+    }
+    .input1{
+        font-size: 12px;
+    }
+}
+

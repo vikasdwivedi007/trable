@@ -1,0 +1,114 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?tf6gdf');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?tf6gdf#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?tf6gdf') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?tf6gdf') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?tf6gdf##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ico-"], [class*=" ico-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-police {
+  &:before {
+    content: $ico-police;     
+    color: #3172f5;
+  }
+}
+.ico-reminder {
+  &:before {
+    content: $ico-reminder;     
+    color: #3bbb73;
+  }
+}
+.ico-traffic {
+  &:before {
+    content: $ico-traffic;     
+    color: #f91261;
+  }
+}
+.ico-commissions {
+  &:before {
+    content: $ico-commissions;     
+    color: #3172f5;
+  }
+}
+.ico-departments {
+  &:before {
+    content: $ico-departments;     
+    color: #f91261;
+  }
+}
+.ico-employees {
+  &:before {
+    content: $ico-employees;     
+    color: #3172f5;
+  }
+}
+.ico-invoices {
+  &:before {
+    content: $ico-invoices;     
+    color: #f91261;
+  }
+}
+.ico-jobsFile {
+  &:before {
+    content: $ico-jobsFile;     
+    color: #fff;
+  }
+}
+.ico-media {
+  &:before {
+    content: $ico-media;     
+    color: #f91261;
+  }
+}
+.ico-reports {
+  &:before {
+    content: $ico-reports;     
+    color: #d6933b;
+  }
+}
+.ico-services {
+  &:before {
+    content: $ico-services;     
+    color: #d6933b;
+  }
+}
+.ico-suppliers {
+  &:before {
+    content: $ico-suppliers;     
+    color: #3bbb73;
+  }
+}
+.ico-travelAgent {
+  &:before {
+    content: $ico-travelAgent;     
+    color: #3bbb73;
+  }
+}
+.ico-vouchers {
+  &:before {
+    content: $ico-vouchers;     
+    color: #3172f5;
+  }
+}
+
